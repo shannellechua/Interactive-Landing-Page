@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <div id="header">
+    <div id="nav-bar">
+      <ul class="nav-link" id="header-left">
+        <img id ="toggle" onclick="toggleDarkMode()" src="images/moon.png"/>
+        <li><a href="#description">Description</a></li>
+
+      </ul>
+
+      <img id="header-img" src="/logo.png">
+
+      <ul class="nav-link" id="header-right">
+          <li><a href="#product-details">Details</a></li>
+          <li><a href="#form">Subscribe</a></li>
+      </ul>
+      </div>
+
+    <div id="product">
+      <div id="product-image">
+        <img id="product-photo" src="images/pink24.webp">
+
+      </div>
+
+      <div class="exclude" id="product-description">
+        <h1>FreeSip</h1>
+        <p>Hello there. I guess this is kind of like my dating profile. While I could go on about my cool FreeSip spout, fancy triple-layer insulation, or my dazzling color options, we all know it’s about the pictures anyway. And yes, I photoshopped them all.</p>
+
+        <div class="selection">
+          <p class="variant">Size</p>
+          <p class="option active" id="24oz">24oz</p>
+          <p class="option" id="32oz">32oz</p>
+          <p class="option" id="40oz">40oz</p>
+          </div>
+        
+       </div> <!--end of product-description -->
+    </div>
+  </div>
+
+
+  <div class="content">
+    <h2 id="description">Description</h2>
+    <p>Introducing the FreeSip water bottle, available in various sizes including a convenient 40 oz water bottle, a practical 32 oz water bottle, and a compact 24 oz water bottle. You deserve options when it comes to hydration and that's why we designed the FreeSip to let you choose your own adventure—hold upright to sip through the built-in straw or tilt back to swig through the wide-mouth opening. If that isn’t exciting enough, this bottle is ready to spring into action at any time. Just push the button to flip the top open and push back down to lock it shut (and keep out germs). But we should warn you: If you’re one of those people who likes bottles that spill water everywhere, you’re out of luck… the FreeSip is completely leak proof.</p>
+  </div>
+
+  <div id="video">
+    <iframe height="100%" src="https://www.youtube.com/embed/wCuE6sIPTG4?si=ab0mPy5--jZknU5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+
+  <div class="content">
+    <h2 >Product Details</h2>
+
+    <div id="product-details">
+
+      <div class="product-detail">
+        <h3>Dimensions</h3>
+        <ul>
+        <li>19oz: 9.88(H) x 2.85(D)</li>
+        <li>24oz: 10.68(H) x 3.12(D)</li>
+        <li>32oz: 10.66(H) x 3.43(D)</li>
+        <li>40oz: 11.64(H) x 3.60(D)</li>
+        <li>25oz: 9.87(H) x 2.85(D)</li>
+          </ul>
+          </div>
+
+      <div class="product-detail">
+        <h3>Product Features </h3>
+        <ul>
+        <li>Stainless steel insulated bottle</li>
+          <li>Triple layer insulated</li>
+          <li>Leak-proof lid</li>
+          <li>Patented FreeSip spout with a built- in straw that lets you sip or swig</li>
+          <li>BPA, lead, and phthalate-free</li>
+          <li>Wide opening for cleaning and adding ice</li>
+          <li>Convenient carry loop that also doubles as a lock when closed</li>
+          <li>Dishwasher-safe lid and hand-washable cup</li>
+          <li>Warranty: Standard</li>
+          <li>Plastic: available in 25oz size</li>
+          <li>24 oz water bottle</li>
+          <li>32 oz water bottle</li>
+          <li>40 oz water bottle</li>
+          </ul>
+          </div>
+
+  </div>
+  </div>
+
+  <div class="exclude" id="footer">
+  <div id="form">
+    <h2>Join the Club</h2>
+  <form action="" method="GET">
+
+      <label for="name" id="name-label">First name</label>
+      <input type="text" id="name" name="fname" placeholder="John"><br>
+
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" name="email" placeholder="email@email.com"><br>
+
+    <input type="submit" id="submit" value="Sign me up">
+
+  </form>
+  </div>
+    </div>
+
+</body>
+
+</html>
